@@ -8,5 +8,5 @@ def parse_corelog(DDL_model, log_path):
 
 
 if __name__ == '__main__':
-    corelog_dir = ""
+    corelog_dir = "test"
 
