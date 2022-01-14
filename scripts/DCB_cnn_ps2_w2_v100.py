@@ -147,14 +147,12 @@ if __name__ == '__main__':
         print("done")
         print("sleep 1s;")
 
-        print("echo \"TOTAL: $(($(($ENDTIME - $STARTTIME))/1000000))\" >", result_dir + "/" + key + "_time.txt")
+        print("echo \"TOTAL: $(($(($ENDTIME - $STARTTIME))/1000000))\" >", result_path + "/time/" + key + "_time.txt")
         print("echo \"W1: $(($(($W1ENDTIME - $W1STARTTIME))/1000000))\" | sudo tee -a ",
-              result_dir + "/" + key + "_w1_time.txt")
+              result_path + "/time/" + key + "_w1_time.txt")
         print("echo \"W2: $(($(($W2ENDTIME - $W2STARTTIME))/1000000))\" | sudo tee -a ",
-              result_dir + "/" + key + "_w2_time.txt")
+              result_path + "/time/" + key + "_w2_time.txt")
 
-        print("ENDTIME=$(date +%s)")
-        print("echo \"$(($ENDTIME-$STARTTIME))\" >" + result_dir + "/" + key + "_time.txt;")
         print("sleep 1s;")
 
         print("#--------------------kill python------------------")
@@ -167,21 +165,23 @@ if __name__ == '__main__':
         print("sleep 1s;")
 
         print("#------------------move core log-------------------")
-        print("mv " + key + "_corelog_ps1.txt", result_path + "corelog")
-        print("mv " + key + "_corelog_ps2.txt", result_path + "corelog")
-        print("mv " + key + "_corelog_w1.txt", result_path + "corelog")
-        print("mv " + key + "_corelog_w2.txt", result_path + "corelog")
+        print("mv " + key + "_corelog_ps1.txt", result_path + "corelog/")
+        print("mv " + key + "_corelog_ps2.txt", result_path + "corelog/")
+        print("mv " + key + "_corelog_w1.txt", result_path + "corelog/")
+        print("mv " + key + "_corelog_w2.txt", result_path + "corelog/")
         # print("mv *" + key + "*", result_dir + "/")
 
         print("#------------------move pbtxt, json-------------------")
-        print("mv /benchmarks/" + key + "_w1.json", result_dir + "/")
-        print("mv /benchmarks/" + key + "_w2.json", result_dir + "/")
-        print("mv /benchmarks/" + key + "_w1.pbtxt", result_dir + "/")
-        print("mv /benchmarks/" + key + "_w2.pbtxt", result_dir + "/")
+        print("mv /home/ubuntu/cyshin/benchmarks/*.json", result_dir + "/")
+        print("mv /home/ubuntu/cyshin//benchmarks/*.pbtxt", result_dir + "/")
+        # print("mv /benchmarks/" + key + "_w1.json", result_dir + "/")
+        # print("mv /benchmarks/" + key + "_w2.json", result_dir + "/")
+        # print("mv /benchmarks/" + key + "_w1.pbtxt", result_dir + "/")
+        # print("mv /benchmarks/" + key + "_w2.pbtxt", result_dir + "/")
 
         print()
 
-    for key, value in cifar10_command_dict.items():
+    for key, value in imagenet_command_dict.items():
         result_dir = result_path + key
         print("mkdir", result_dir)
         print("sleep 1s;")
@@ -215,11 +215,12 @@ if __name__ == '__main__':
         print("done")
         print("sleep 1s;")
 
-        print("echo \"TOTAL: $(($(($ENDTIME - $STARTTIME))/1000000))\" >", result_path + "time/" + key + "_time.txt")
+        print("echo \"TOTAL: $(($(($ENDTIME - $STARTTIME))/1000000))\" >", result_path + "/time/" + key + "_time.txt")
         print("echo \"W1: $(($(($W1ENDTIME - $W1STARTTIME))/1000000))\" | sudo tee -a ",
-              result_path + "time/" + key + "_w1_time.txt")
+              result_path + "/time/" + key + "_w1_time.txt")
         print("echo \"W2: $(($(($W2ENDTIME - $W2STARTTIME))/1000000))\" | sudo tee -a ",
-              result_path + "time/" + key + "_w2_time.txt")
+              result_path + "/time/" + key + "_w2_time.txt")
+
         print("sleep 1s;")
 
         print("#--------------------kill python------------------")
@@ -232,16 +233,18 @@ if __name__ == '__main__':
         print("sleep 1s;")
 
         print("#------------------move core log-------------------")
-        print("mv " + key + "_corelog_ps1.txt", result_dir + "/")
-        print("mv " + key + "_corelog_ps2.txt", result_dir + "/")
-        print("mv " + key + "_corelog_w1.txt", result_dir + "/")
-        print("mv " + key + "_corelog_w2.txt", result_dir + "/")
+        print("mv " + key + "_corelog_ps1.txt", result_path + "corelog/")
+        print("mv " + key + "_corelog_ps2.txt", result_path + "corelog/")
+        print("mv " + key + "_corelog_w1.txt", result_path + "corelog/")
+        print("mv " + key + "_corelog_w2.txt", result_path + "corelog/")
         # print("mv *" + key + "*", result_dir + "/")
 
         print("#------------------move pbtxt, json-------------------")
-        print("mv /benchmarks/" + key + "_w1.json", result_dir + "/")
-        print("mv /benchmarks/" + key + "_w2.json", result_dir + "/")
-        print("mv /benchmarks/" + key + "_w1.pbtxt", result_dir + "/")
-        print("mv /benchmarks/" + key + "_w2.pbtxt", result_dir + "/")
+        print("mv /home/ubuntu/cyshin/benchmarks/*.json", result_dir + "/")
+        print("mv /home/ubuntu/cyshin//benchmarks/*.pbtxt", result_dir + "/")
+        # print("mv /benchmarks/" + key + "_w1.json", result_dir + "/")
+        # print("mv /benchmarks/" + key + "_w2.json", result_dir + "/")
+        # print("mv /benchmarks/" + key + "_w1.pbtxt", result_dir + "/")
+        # print("mv /benchmarks/" + key + "_w2.pbtxt", result_dir + "/")
 
         print()
