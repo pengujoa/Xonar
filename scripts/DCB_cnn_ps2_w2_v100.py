@@ -96,10 +96,54 @@ def cnn_model_name_builder():
                     + "--graph_file=/benchmarks/" + command_key + "_w2.pbtxt")
                 _imagenet_command_dict[command_key] = command_value
 
-    # resnet101 batch 512 async: out of memory error
-    # FileNotFoundError: [Errno 2] No such file or directory:
-    # 'pbtxt/file/CNN/imagenet_resnet101_async_batch512_w1.pbtxt'
+    # out of memory error
+    _cifar10_command_dict.pop('cifar10_densenet100_k12_sync_batch512')
+    _cifar10_command_dict.pop('cifar10_densenet100_k12_async_batch512')
+
+    _cifar10_command_dict.pop('cifar10_densenet100_k24_sync_batch256')
+    _cifar10_command_dict.pop('cifar10_densenet100_k24_async_batch256')
+    _cifar10_command_dict.pop('cifar10_densenet100_k24_sync_batch512')
+    _cifar10_command_dict.pop('cifar10_densenet100_k24_async_batch512')
+
+    _imagenet_command_dict.pop('imagenet_resnet50_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_resnet50_async_batch512')
+    _imagenet_command_dict.pop('imagenet_resnet50_v2_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_resnet50_v2_async_batch512')
+
+    _imagenet_command_dict.pop('imagenet_resnet101_sync_batch256')
+    _imagenet_command_dict.pop('imagenet_resnet101_async_batch256')
+    _imagenet_command_dict.pop('imagenet_resnet101_v2_sync_batch256')
+    _imagenet_command_dict.pop('imagenet_resnet101_v2_async_batch256')
+
+    _imagenet_command_dict.pop('imagenet_resnet101_sync_batch512')
     _imagenet_command_dict.pop('imagenet_resnet101_async_batch512')
+    _imagenet_command_dict.pop('imagenet_resnet101_v2_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_resnet101_v2_async_batch512')
+
+    _imagenet_command_dict.pop('imagenet_resnet152_sync_batch256')
+    _imagenet_command_dict.pop('imagenet_resnet152_async_batch256')
+    _imagenet_command_dict.pop('imagenet_resnet152_v2_sync_batch256')
+    _imagenet_command_dict.pop('imagenet_resnet152_v2_async_batch256')
+
+    _imagenet_command_dict.pop('imagenet_resnet152_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_resnet152_async_batch512')
+    _imagenet_command_dict.pop('imagenet_resnet152_v2_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_resnet152_v2_async_batch512')
+
+    _imagenet_command_dict.pop('imagenet_inception3_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_inception3_async_batch512')
+
+    _imagenet_command_dict.pop('imagenet_inception4_sync_batch256')
+    _imagenet_command_dict.pop('imagenet_inception4_async_batch256')
+    _imagenet_command_dict.pop('imagenet_inception4_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_inception4_async_batch512')
+
+    _imagenet_command_dict.pop('imagenet_vgg11_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_vgg11_async_batch512')
+    _imagenet_command_dict.pop('imagenet_vgg16_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_vgg16_async_batch512')
+    _imagenet_command_dict.pop('imagenet_vgg19_sync_batch512')
+    _imagenet_command_dict.pop('imagenet_vgg19_async_batch512')
 
     return _cifar10_command_dict, _imagenet_command_dict
 
