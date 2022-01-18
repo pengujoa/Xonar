@@ -1,0 +1,6 @@
+.idea
+*.txt
+*.pbtxt
+*.json
+*.pyc
+
