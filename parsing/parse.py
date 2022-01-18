@@ -98,21 +98,5 @@ def parse_3timestamp(file):
 
     print(raw_log_per_iter[1])
 
-if __name__ == '__main__':
-    # timestamp = raw_log_to_list("core_log.txt")
-    # timestamp_group(timestamp)
 
-    # worker_send_tensor_list = worker_send("core_log_w1.txt")
-    # PS_recv_tensor_list = PS_recv("core_log_ps1.txt")
-    #
-    # print(len(worker_send_tensor_list))
-    # print(len(PS_recv_tensor_list))
-    #
-    # s = set(worker_send_tensor_list).difference(set(PS_recv_tensor_list))
-    # print(len(s))
-    # print(s)
-    # s = set(PS_recv_tensor_list).difference(set(worker_send_tensor_list))
-    # print(len(s))
-
-    parse_3timestamp("core_log_3timestamp.txt")
 
