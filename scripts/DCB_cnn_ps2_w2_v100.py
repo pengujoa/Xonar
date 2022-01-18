@@ -60,15 +60,15 @@ def cnn_model_name_builder():
                 # command_value: DDL command for PS, Worker
                 command_value = []
                 command_value.append(
-                    ps1_command + params_option + sync_option + "--model=" + model + " --data_name=cifar10 --num_batches=10 --display_every=1 ")
+                    ps1_command + params_option + sync_option + "--model=" + model + " --data_name=cifar10 --num_batches=11 --display_every=1 ")
                 command_value.append(
-                    ps2_command + params_option + sync_option + "--model=" + model + " --data_name=cifar10 --num_batches=10 --display_every=1 ")
+                    ps2_command + params_option + sync_option + "--model=" + model + " --data_name=cifar10 --num_batches=11 --display_every=1 ")
                 command_value.append(
-                    w1_command + params_option + sync_option + "--model=" + model + " --data_name=cifar10  --num_batches=10 --display_every=1 "
+                    w1_command + params_option + sync_option + "--model=" + model + " --data_name=cifar10  --num_batches=11 --display_every=1 "
                     + "--trace_file=/benchmarks/" + command_key + "_w1.json "
                     + "--graph_file=/benchmarks/" + command_key + "_w1.pbtxt")
                 command_value.append(
-                    w2_command + params_option + sync_option + "--model=" + model + " --data_name=cifar10  --num_batches=10 --display_every=1 "
+                    w2_command + params_option + sync_option + "--model=" + model + " --data_name=cifar10  --num_batches=11 --display_every=1 "
                     + "--trace_file=/benchmarks/" + command_key + "_w2.json "
                     + "--graph_file=/benchmarks/" + command_key + "_w2.pbtxt")
                 _cifar10_command_dict[command_key] = command_value
@@ -83,15 +83,15 @@ def cnn_model_name_builder():
                 # command_value: DDL command for PS, Worker
                 command_value = []
                 command_value.append(
-                    ps1_command + params_option + sync_option + "--model=" + model + " --data_name=imagenet --num_batches=10 --display_every=1 ")
+                    ps1_command + params_option + sync_option + "--model=" + model + " --data_name=imagenet --num_batches=11 --display_every=1 ")
                 command_value.append(
-                    ps2_command + params_option + sync_option + "--model=" + model + " --data_name=imagenet --num_batches=10 --display_every=1 ")
+                    ps2_command + params_option + sync_option + "--model=" + model + " --data_name=imagenet --num_batches=11 --display_every=1 ")
                 command_value.append(
-                    w1_command + params_option + sync_option + "--model=" + model + " --data_name=imagenet  --num_batches=10 --display_every=1 "
+                    w1_command + params_option + sync_option + "--model=" + model + " --data_name=imagenet  --num_batches=11 --display_every=1 "
                     + "--trace_file=/benchmarks/" + command_key + "_w1.json "
                     + "--graph_file=/benchmarks/" + command_key + "_w1.pbtxt")
                 command_value.append(
-                    w2_command + params_option + sync_option + "--model=" + model + " --data_name=imagenet  --num_batches=10 --display_every=1 "
+                    w2_command + params_option + sync_option + "--model=" + model + " --data_name=imagenet  --num_batches=11 --display_every=1 "
                     + "--trace_file=/benchmarks/" + command_key + "_w2.json "
                     + "--graph_file=/benchmarks/" + command_key + "_w2.pbtxt")
                 _imagenet_command_dict[command_key] = command_value
