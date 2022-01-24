@@ -7,20 +7,13 @@ HOUR = 3600
 MINUTE = 60
 
 
-def parse_corelog(ddl_model, log_dir, pbtxt_dir, time_dir, num_ps, num_w, is_worker):
+def parse_corelog(ddl_model, log_dir, pbtxt_dir, time_dir, nvml_dir, num_ps, num_w, is_worker, w_gpu_idx):
+    print(len(w_gpu_idx))
     result = [[] for _ in range(num_w)]
     if is_worker:
         ps_log = []
         for ps_idx in range(1, num_ps + 1):
             ps_log = ps_log + open(log_dir + ddl_model + "_corelog_ps" + str(ps_idx) + ".txt", 'r').read().split("\n")
-
-        # w_recv_req_start_diff = [[] for _ in range(num_w)]
-        # w_recv_resp_start_diff = [[] for _ in range(num_w)]
-        # w_recv_resp_end_diff = [[] for _ in range(num_w)]
-        #
-        # w_send_reqed_start_diff = [[] for _ in range(num_w)]
-        # w_send_resp_start_diff = [[] for _ in range(num_w)]
-        # w_send_resp_end_diff = [[] for _ in range(num_w)]
 
         for w_idx in range(1, num_w + 1):
             rx_dur = []
@@ -144,43 +137,11 @@ def parse_corelog(ddl_model, log_dir, pbtxt_dir, time_dir, num_ps, num_w, is_wor
                         first_gpu_op_start_time = int(w_s.split(",")[1])
 
                     elif "Compute op completed done" in w_s:
+                        op_name = w_s.split(",")[3].split(" ")[0]
                         op_cat = w_s.split(",")[3].split(" ")[2].split("[")[0]
                         if ("NoOp" not in op_cat) & ("Const" not in op_cat) & ("Identity" not in op_cat):
-                            last_gpu_op_end_time = int(w_s.split(",")[1])
-
-                # print("--iter change--")
-                # print("send_min_req_start", send_min_req_start)
-                # print("send_max_req_start", send_max_req_start)
-                # print("diff", send_max_req_start - send_min_req_start)
-                # print("----")
-                # print("send_min_resp_start", send_max_req_start)
-                # print("send_max_resp_start", send_max_resp_start)
-                # print("diff", send_max_resp_start - send_min_resp_start)
-                # print("----")
-                # print("send_min_resp_end", send_min_resp_end)
-                # print("send_max_resp_end", send_max_resp_end)
-                # print("diff", send_max_resp_end - send_min_resp_end)
-                # print("----")
-                # print("recv_min_req_start", recv_min_req_start)
-                # print("recv_max_req_start", recv_max_req_start)
-                # print("diff", recv_max_req_start - recv_min_req_start)
-                # print("----")
-                # print("recv_min_resp_start", recv_max_req_start)
-                # print("recv_max_resp_start", recv_max_resp_start)
-                # print("diff", recv_max_resp_start - recv_min_resp_start)
-                # print("----")
-                # print("recv_min_resp_end", recv_min_resp_end)
-                # print("recv_max_resp_end", recv_max_resp_end)
-                # print("diff", recv_max_resp_end - recv_min_resp_end)
-                # print("----")
-
-                # w_send_reqed_start_diff[w_idx - 1].append(send_max_req_start - send_min_req_start)
-                # w_send_resp_start_diff[w_idx - 1].append(send_max_resp_start - send_min_resp_start)
-                # w_send_resp_end_diff[w_idx - 1].append(send_max_resp_end - send_min_resp_end)
-                #
-                # w_recv_req_start_diff[w_idx - 1].append(recv_max_req_start - recv_min_req_start)
-                # w_recv_resp_start_diff[w_idx - 1].append(recv_max_resp_start - recv_min_resp_start)
-                # w_recv_resp_end_diff[w_idx - 1].append(recv_max_resp_end - recv_min_resp_end)
+                            if ("group_deps" not in op_name) & ("NoOp" not in op_name):
+                                last_gpu_op_end_time = int(w_s.split(",")[1])
 
                 rx_dur.append(recv_max_resp_end - recv_min_resp_start)
                 tx_dur.append(send_max_resp_end - send_min_resp_start)
@@ -219,22 +180,19 @@ def parse_corelog(ddl_model, log_dir, pbtxt_dir, time_dir, num_ps, num_w, is_wor
             # GPU Total time
             result[w_idx - 1].append(int(open(time_dir + ddl_model + "_w" + str(w_idx) + "_time.txt", 'r').read().split(":")[1]))
 
-            print()
-            print(result[w_idx - 1])
+            # NVML GPU mem
+            nvml_log = open(nvml_dir + ddl_model + "_gpu.txt", 'r').read().split("\n")
+            nvml_log.pop(-1)
+            gpu_idx = w_gpu_idx[w_idx - 1]
+            max_gpu_mem = 0
+            for log in nvml_log:
+                if log.split(" ")[-14].split(":")[0] is gpu_idx:
+                    gpu_mem = int(log.split(" ")[-1])
+                    max_gpu_mem = gpu_mem if gpu_mem > max_gpu_mem else max_gpu_mem
+            result[w_idx - 1].append(max_gpu_mem/(1024*1024))
 
-        # print(w_send_reqed_start_diff[0])
-        # print(w_send_reqed_start_diff[1])
-        # print(w_send_resp_start_diff[0])
-        # print(w_send_resp_start_diff[1])
-        # print(w_send_resp_end_diff[0])
-        # print(w_send_resp_end_diff[1])
-        #
-        # print(w_recv_req_start_diff[0])
-        # print(w_recv_req_start_diff[1])
-        # print(w_recv_resp_start_diff[0])
-        # print(w_recv_resp_start_diff[1])
-        # print(w_recv_resp_end_diff[0])
-        # print(w_recv_resp_end_diff[1])
+            print(result[w_idx - 1])
+            print()
 
     return result
 
