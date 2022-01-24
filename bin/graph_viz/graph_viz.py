@@ -1,7 +1,7 @@
-# importing networkx
 import networkx as nx
+import pandas as pd
+import numpy as np
 
-# importing matplotlib.pyplot
 import matplotlib.pyplot as plt
 
 import tensorflow as tf
@@ -65,6 +65,70 @@ def nx_edge_form_using_op_node_edge(edge_list):
     return edge_list
 
 
+def pbtxt_extract_tensor_shape(p):
+    with tf.compat.v1.Session() as sess:
+        sess.graph.as_default()
+        tf.import_graph_def(p, name='')
+        tensor_shape_in_pbtxt = {}
+
+        tensor_does_not_exist_node = 0
+        tensor_does_not_exist_node_op_list = []
+
+        # [cyshin] Extracts OPs only running on GPUs
+        graph_node_list = []
+        for node in p.node:
+            if "GPU" in node.device:
+                graph_node_list.append(node)
+        # [cyshin] Extracts all OPs
+        # graph_node_list = [node for node in p.node]
+
+        for node in graph_node_list:
+            try:
+                tensor_shape_in_pbtxt[node.name] = sess.graph.get_tensor_by_name(node.name + ":0").shape
+            except KeyError:
+                tensor_does_not_exist_node += 1
+                tensor_does_not_exist_node_op_list.append(node.op)
+
+        # print("Tensor없다는 node 갯수: ", tensor_does_not_exist_node)
+        # print(list(set(tensor_does_not_exist_node_op_list)))
+
+        # 아래 두 결과는 같음.
+        # print(len(graph_node_list))
+        # print(len(sess.graph.get_operations()))
+        # sess.graph.get_operations(): https://github.com/tensorflow/tensorflow/blob/080d59b76ca27b184f0fce605db7f5339ea5a8cf/tensorflow/python/framework/ops.py#L3550
+    # TF memory leak: https://www.programmersought.com/article/91842881333/
+    tf.compat.v1.reset_default_graph()
+    return tensor_shape_in_pbtxt
+
+def add_feature_from_pbtxt(G, pbtxt_data):
+    # tensor_size_in_pbtxt is dictionary {"node_name":tensorshape}
+    tensor_shape_in_pbtxt = pbtxt_extract_tensor_shape(pbtxt_data)
+    for op_node_name, tensor_shape in tensor_shape_in_pbtxt.items():
+        tensorsize = 0
+        try:
+            for dim in tensor_shape:
+                tensorsize = 1 if tensorsize == 0 else tensorsize
+                try:
+                    tensorsize *= dim
+                except TypeError:
+                    tensorsize = 0
+        except ValueError:
+            tensorsize = 0
+            pass
+
+        G.nodes[op_node_name]['tensorsize'] = tensorsize
+    return
+
+
+def add_feature_from_csv(G, pbtxt_data):
+    opcoding_dict = pd.read_csv('opcoding.csv', header=None, index_col=0, squeeze=True).to_dict()
+
+    # [cyshin] Extracts OPs only running on GPUs
+    for node in pbtxt_data.node:
+        if "GPU" in node.device:
+            G.nodes[node.name]['opcoding'] = opcoding_dict[node.op]
+
+
 def build_nx_graph(pbtxt_path, json_path, DNN_model):
 
     pbtxt_data = import_pbtxt(pbtxt_path)
@@ -84,9 +148,9 @@ def build_nx_graph(pbtxt_path, json_path, DNN_model):
     G.add_nodes_from(nx_node_form)
     G.add_edges_from(nx_edge_form)
 
-    # add_feature_from_pbtxt(G, pbtxt_data)
+    add_feature_from_pbtxt(G, pbtxt_data)
     # add_feature_from_json(G, json_data)
-    # add_feature_from_csv(G, pbtxt_data)
+    add_feature_from_csv(G, pbtxt_data)
 
     return G
 
@@ -127,8 +191,6 @@ def group_nx_graph(G, num_of_group):
 
     # grouped_op_node_name, op_node_group_num = grouping.node_grouping(op_node_name, split_op_node_name)
     grouped_op_node_name, op_node_group_num = new_node_grouping(G, num_of_group)
-    # for i in range(len(grouped_op_node_name)):
-    #     print(grouped_op_node_name[i])
 
 
     for group_num, group in enumerate(grouped_op_node_name):
@@ -144,6 +206,7 @@ def group_nx_graph(G, num_of_group):
             opcoding_value += float(G.nodes[op_node_name]['opcoding'])
             #rint(opcoding_value)
 
+        print(group_num, tensorsize_value, opcoding_value)
         Grouped_G.add_node(group_num, comptime=comptime_value, tensorsize=tensorsize_value, opcount=len(group), opcoding=opcoding_value, nodesinfo=sub_G)
 
     # flat_op_node_group_num = list(itertools.chain(*op_node_group_num))
@@ -154,6 +217,10 @@ def group_nx_graph(G, num_of_group):
         Grouped_G.add_edge(op_node_group_num[edge[0]], op_node_group_num[edge[1]])
 
     # Grouped_G.add_edges_from(nx_edge_form)
+
+    # for i in range(len(grouped_op_node_name)):
+    #     print(grouped_op_node_name[i])
+
 
     return Grouped_G
 
@@ -185,5 +252,10 @@ if __name__ == '__main__':
     G_G.remove_edges_from(nx.selfloop_edges(G_G))
     d_n = G_G.number_of_nodes()
     d_e = G_G.number_of_edges()
+
+    nodes = list(G_G)
+    np.set_printoptions(threshold=np.inf, linewidth=np.inf)
+    adj_temp = nx.to_numpy_array(G_G, nodes)
+    print(adj_temp)
 
     draw_nx_graph(G_G)
