@@ -17,11 +17,12 @@ def main(args):
     save = [["Model", "w_idx", "RX_time(ms)", "TX_time(ms)", "GPU_Active(ms)", "GPU_Idle(ms)", "1_Iter_time(ms)", "Total_time(ms)", "GPU_Memory(MB)"]]
 
     for DDL_model in model_list:
-        result = PC.parse_corelog(DDL_model, log_dir, pbtxt_dir, time_dir, nvml_dir, args.num_ps, args.num_worker, is_worker, w_gpu_idx)
+        # result = PC.parse_corelog(DDL_model, log_dir, pbtxt_dir, time_dir, nvml_dir, args.num_ps, args.num_worker, is_worker, w_gpu_idx)
+        result = PC.parse_only_gpu(DDL_model, nvml_dir, args.num_worker, is_worker, w_gpu_idx)
         for w_idx in range(args.num_worker):
             save.append(result[w_idx])
 
-    csvfile = open(args.save_dir + args.save_file + "_gpu", "w", newline="")
+    csvfile = open(args.save_dir + args.save_file, "w", newline="")
     csvwriter = csv.writer(csvfile)
 
     for row in save:

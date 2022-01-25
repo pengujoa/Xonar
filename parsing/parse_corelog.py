@@ -8,7 +8,6 @@ MINUTE = 60
 
 
 def parse_corelog(ddl_model, log_dir, pbtxt_dir, time_dir, nvml_dir, num_ps, num_w, is_worker, w_gpu_idx):
-    print(len(w_gpu_idx))
     result = [[] for _ in range(num_w)]
     if is_worker:
         ps_log = []
@@ -189,6 +188,35 @@ def parse_corelog(ddl_model, log_dir, pbtxt_dir, time_dir, nvml_dir, num_ps, num
                 if log.split(" ")[-14].split(":")[0] is gpu_idx:
                     gpu_mem = int(log.split(" ")[-1])
                     max_gpu_mem = gpu_mem if gpu_mem > max_gpu_mem else max_gpu_mem
+            result[w_idx - 1].append(max_gpu_mem/(1024*1024))
+
+            print(result[w_idx - 1])
+            print()
+
+    return result
+
+
+def parse_only_gpu(ddl_model, nvml_dir, num_w, is_worker, w_gpu_idx):
+    result = [[] for _ in range(num_w)]
+    if is_worker:
+        for w_idx in range(1, num_w + 1):
+            nvml_log = open(nvml_dir + ddl_model + "_gpu.txt", 'r').read().split("\n")
+            nvml_log.pop(-1)
+            gpu_idx = w_gpu_idx[w_idx - 1]
+            max_gpu_mem = 0
+            for log in nvml_log:
+                if log.split(" ")[-14].split(":")[0] is gpu_idx:
+                    gpu_mem = int(log.split(" ")[-1])
+                    max_gpu_mem = gpu_mem if gpu_mem > max_gpu_mem else max_gpu_mem
+
+            result[w_idx - 1].append(ddl_model)
+            result[w_idx - 1].append(w_idx)
+            result[w_idx - 1].append(0)
+            result[w_idx - 1].append(0)
+            result[w_idx - 1].append(0)
+            result[w_idx - 1].append(0)
+            result[w_idx - 1].append(0)
+            result[w_idx - 1].append(0)
             result[w_idx - 1].append(max_gpu_mem/(1024*1024))
 
             print(result[w_idx - 1])
