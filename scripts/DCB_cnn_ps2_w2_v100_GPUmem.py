@@ -153,7 +153,7 @@ if __name__ == '__main__':
     sys.stdout = open('DDL_command_cnn_ps2_w2_gpu.sh', 'w')
     python_path = "/root/anaconda3/envs/tfbuild/bin/python3.6"
     result_path = "/home/ubuntu/cyshin/benchmarks/xonar_results_gpu/"
-    nvml_path = "/home/ubuntu/cyshin/benchmarks/NVML"
+    nvml_path = "/home/ubuntu/cyshin/benchmarks/jhtest/NVML"
 
     print("#!/bin/bash")
     print("# How to use: sudo bash DDL_command.sh")

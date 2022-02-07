@@ -1,7 +1,7 @@
 #!/bin/bash
 # How to use: sudo bash DDL_command.sh
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -50,7 +50,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -99,7 +99,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -148,7 +148,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -197,7 +197,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -246,7 +246,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -295,7 +295,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -344,7 +344,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -393,7 +393,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -442,7 +442,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -491,7 +491,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -540,7 +540,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -589,7 +589,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -638,7 +638,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -687,7 +687,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -736,7 +736,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -785,7 +785,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -834,7 +834,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -883,7 +883,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -932,7 +932,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -981,7 +981,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1030,7 +1030,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet40_k12_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1079,7 +1079,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet40_k12_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1128,7 +1128,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1177,7 +1177,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1226,7 +1226,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1275,7 +1275,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1324,7 +1324,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1373,7 +1373,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1422,7 +1422,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1471,7 +1471,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1520,7 +1520,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1569,7 +1569,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1618,7 +1618,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1667,7 +1667,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1716,7 +1716,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1765,7 +1765,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1814,7 +1814,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1863,7 +1863,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1912,7 +1912,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -1961,7 +1961,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2010,7 +2010,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k12_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2059,7 +2059,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k12_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2108,7 +2108,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2157,7 +2157,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2206,7 +2206,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2255,7 +2255,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2304,7 +2304,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2353,7 +2353,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2402,7 +2402,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2451,7 +2451,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2500,7 +2500,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2549,7 +2549,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2598,7 +2598,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2647,7 +2647,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2696,7 +2696,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2745,7 +2745,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2794,7 +2794,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2843,7 +2843,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2892,7 +2892,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_densenet100_k24_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2941,7 +2941,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_densenet100_k24_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -2990,7 +2990,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3039,7 +3039,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3088,7 +3088,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3137,7 +3137,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3186,7 +3186,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3235,7 +3235,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3284,7 +3284,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3333,7 +3333,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3382,7 +3382,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3431,7 +3431,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3480,7 +3480,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3529,7 +3529,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3578,7 +3578,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3627,7 +3627,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3676,7 +3676,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3725,7 +3725,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3774,7 +3774,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3823,7 +3823,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3872,7 +3872,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3921,7 +3921,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -3970,7 +3970,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4019,7 +4019,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4068,7 +4068,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4117,7 +4117,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4166,7 +4166,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4215,7 +4215,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4264,7 +4264,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4313,7 +4313,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4362,7 +4362,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4411,7 +4411,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4460,7 +4460,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4509,7 +4509,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4558,7 +4558,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4607,7 +4607,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4656,7 +4656,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4705,7 +4705,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4754,7 +4754,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4803,7 +4803,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4852,7 +4852,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4901,7 +4901,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4950,7 +4950,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -4999,7 +4999,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5048,7 +5048,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet20_v2_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5097,7 +5097,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet20_v2_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5146,7 +5146,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5195,7 +5195,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5244,7 +5244,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5293,7 +5293,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5342,7 +5342,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5391,7 +5391,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5440,7 +5440,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5489,7 +5489,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5538,7 +5538,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5587,7 +5587,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5636,7 +5636,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5685,7 +5685,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5734,7 +5734,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5783,7 +5783,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5832,7 +5832,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5881,7 +5881,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5930,7 +5930,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -5979,7 +5979,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6028,7 +6028,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6077,7 +6077,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6126,7 +6126,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6175,7 +6175,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6224,7 +6224,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6273,7 +6273,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6322,7 +6322,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6371,7 +6371,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6420,7 +6420,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6469,7 +6469,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6518,7 +6518,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6567,7 +6567,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6616,7 +6616,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6665,7 +6665,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6714,7 +6714,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6763,7 +6763,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6812,7 +6812,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6861,7 +6861,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6910,7 +6910,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -6959,7 +6959,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7008,7 +7008,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7057,7 +7057,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7106,7 +7106,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7155,7 +7155,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7204,7 +7204,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet32_v2_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7253,7 +7253,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet32_v2_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7302,7 +7302,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7351,7 +7351,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7400,7 +7400,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7449,7 +7449,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7498,7 +7498,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7547,7 +7547,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7596,7 +7596,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7645,7 +7645,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7694,7 +7694,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7743,7 +7743,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7792,7 +7792,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7841,7 +7841,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7890,7 +7890,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7939,7 +7939,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -7988,7 +7988,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8037,7 +8037,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8086,7 +8086,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8135,7 +8135,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8184,7 +8184,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8233,7 +8233,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8282,7 +8282,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8331,7 +8331,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8380,7 +8380,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8429,7 +8429,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8478,7 +8478,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8527,7 +8527,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8576,7 +8576,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8625,7 +8625,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8674,7 +8674,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8723,7 +8723,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8772,7 +8772,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8821,7 +8821,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8870,7 +8870,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8919,7 +8919,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -8968,7 +8968,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9017,7 +9017,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9066,7 +9066,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9115,7 +9115,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9164,7 +9164,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9213,7 +9213,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9262,7 +9262,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9311,7 +9311,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9360,7 +9360,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet44_v2_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9409,7 +9409,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet44_v2_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9458,7 +9458,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9507,7 +9507,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9556,7 +9556,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9605,7 +9605,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9654,7 +9654,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9703,7 +9703,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9752,7 +9752,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9801,7 +9801,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9850,7 +9850,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9899,7 +9899,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9948,7 +9948,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -9997,7 +9997,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10046,7 +10046,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10095,7 +10095,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10144,7 +10144,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10193,7 +10193,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10242,7 +10242,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10291,7 +10291,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10340,7 +10340,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10389,7 +10389,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10438,7 +10438,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10487,7 +10487,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10536,7 +10536,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10585,7 +10585,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10634,7 +10634,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10683,7 +10683,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10732,7 +10732,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10781,7 +10781,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10830,7 +10830,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10879,7 +10879,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10928,7 +10928,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -10977,7 +10977,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11026,7 +11026,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11075,7 +11075,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11124,7 +11124,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11173,7 +11173,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11222,7 +11222,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11271,7 +11271,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11320,7 +11320,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11369,7 +11369,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11418,7 +11418,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11467,7 +11467,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11516,7 +11516,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet56_v2_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11565,7 +11565,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet56_v2_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11614,7 +11614,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11663,7 +11663,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11712,7 +11712,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11761,7 +11761,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11810,7 +11810,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11859,7 +11859,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11908,7 +11908,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -11957,7 +11957,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12006,7 +12006,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12055,7 +12055,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12104,7 +12104,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12153,7 +12153,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12202,7 +12202,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12251,7 +12251,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12300,7 +12300,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12349,7 +12349,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12398,7 +12398,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12447,7 +12447,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12496,7 +12496,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12545,7 +12545,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12594,7 +12594,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12643,7 +12643,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12692,7 +12692,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12741,7 +12741,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12790,7 +12790,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12839,7 +12839,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12888,7 +12888,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12937,7 +12937,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -12986,7 +12986,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13035,7 +13035,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13084,7 +13084,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13133,7 +13133,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13182,7 +13182,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13231,7 +13231,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13280,7 +13280,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13329,7 +13329,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13378,7 +13378,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13427,7 +13427,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13476,7 +13476,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13525,7 +13525,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13574,7 +13574,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13623,7 +13623,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13672,7 +13672,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_resnet110_v2_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13721,7 +13721,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_resnet110_v2_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13770,7 +13770,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13819,7 +13819,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13868,7 +13868,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13917,7 +13917,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -13966,7 +13966,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14015,7 +14015,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14064,7 +14064,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14113,7 +14113,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14162,7 +14162,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14211,7 +14211,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14260,7 +14260,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14309,7 +14309,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14358,7 +14358,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14407,7 +14407,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14456,7 +14456,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14505,7 +14505,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14554,7 +14554,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14603,7 +14603,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14652,7 +14652,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14701,7 +14701,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14750,7 +14750,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_alexnet_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14799,7 +14799,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_alexnet_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14848,7 +14848,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14897,7 +14897,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14946,7 +14946,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -14995,7 +14995,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15044,7 +15044,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15093,7 +15093,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15142,7 +15142,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15191,7 +15191,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15240,7 +15240,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15289,7 +15289,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15338,7 +15338,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15387,7 +15387,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15436,7 +15436,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15485,7 +15485,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15534,7 +15534,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15583,7 +15583,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15632,7 +15632,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15681,7 +15681,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15730,7 +15730,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15779,7 +15779,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15828,7 +15828,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/cifar10_vgg16_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15877,7 +15877,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/cifar10_vgg16_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15926,7 +15926,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -15975,7 +15975,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16024,7 +16024,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16073,7 +16073,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16122,7 +16122,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16171,7 +16171,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16220,7 +16220,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16269,7 +16269,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16318,7 +16318,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16367,7 +16367,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16416,7 +16416,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16465,7 +16465,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16514,7 +16514,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16563,7 +16563,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16612,7 +16612,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16661,7 +16661,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16710,7 +16710,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16759,7 +16759,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16808,7 +16808,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16857,7 +16857,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16906,7 +16906,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_overfeat_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -16955,7 +16955,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_overfeat_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17004,7 +17004,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17053,7 +17053,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17102,7 +17102,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17151,7 +17151,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17200,7 +17200,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17249,7 +17249,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17298,7 +17298,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17347,7 +17347,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17396,7 +17396,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17445,7 +17445,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17494,7 +17494,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17543,7 +17543,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17592,7 +17592,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17641,7 +17641,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17690,7 +17690,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17739,7 +17739,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17788,7 +17788,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17837,7 +17837,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17886,7 +17886,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception3_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17935,7 +17935,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception3_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -17984,7 +17984,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18033,7 +18033,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18082,7 +18082,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18131,7 +18131,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18180,7 +18180,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18229,7 +18229,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18278,7 +18278,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18327,7 +18327,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18376,7 +18376,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18425,7 +18425,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18474,7 +18474,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18523,7 +18523,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18572,7 +18572,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18621,7 +18621,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18670,7 +18670,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18719,7 +18719,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18768,7 +18768,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_inception4_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18817,7 +18817,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_inception4_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18866,7 +18866,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18915,7 +18915,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -18964,7 +18964,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19013,7 +19013,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19062,7 +19062,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19111,7 +19111,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19160,7 +19160,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19209,7 +19209,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19258,7 +19258,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19307,7 +19307,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19356,7 +19356,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19405,7 +19405,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19454,7 +19454,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19503,7 +19503,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19552,7 +19552,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19601,7 +19601,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19650,7 +19650,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19699,7 +19699,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19748,7 +19748,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19797,7 +19797,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19846,7 +19846,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19895,7 +19895,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19944,7 +19944,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -19993,7 +19993,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20042,7 +20042,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20091,7 +20091,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20140,7 +20140,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20189,7 +20189,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20238,7 +20238,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20287,7 +20287,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20336,7 +20336,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20385,7 +20385,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20434,7 +20434,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20483,7 +20483,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20532,7 +20532,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20581,7 +20581,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20630,7 +20630,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20679,7 +20679,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20728,7 +20728,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet50_v2_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20777,7 +20777,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet50_v2_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20826,7 +20826,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20875,7 +20875,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20924,7 +20924,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -20973,7 +20973,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21022,7 +21022,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21071,7 +21071,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21120,7 +21120,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21169,7 +21169,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21218,7 +21218,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21267,7 +21267,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21316,7 +21316,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21365,7 +21365,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21414,7 +21414,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21463,7 +21463,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21512,7 +21512,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21561,7 +21561,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21610,7 +21610,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21659,7 +21659,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21708,7 +21708,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21757,7 +21757,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21806,7 +21806,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21855,7 +21855,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21904,7 +21904,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -21953,7 +21953,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22002,7 +22002,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22051,7 +22051,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22100,7 +22100,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22149,7 +22149,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22198,7 +22198,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22247,7 +22247,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22296,7 +22296,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22345,7 +22345,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22394,7 +22394,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22443,7 +22443,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22492,7 +22492,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet101_v2_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22541,7 +22541,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet101_v2_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22590,7 +22590,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22639,7 +22639,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22688,7 +22688,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22737,7 +22737,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22786,7 +22786,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22835,7 +22835,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22884,7 +22884,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22933,7 +22933,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -22982,7 +22982,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23031,7 +23031,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23080,7 +23080,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23129,7 +23129,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23178,7 +23178,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23227,7 +23227,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23276,7 +23276,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23325,7 +23325,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23374,7 +23374,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23423,7 +23423,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23472,7 +23472,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23521,7 +23521,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23570,7 +23570,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23619,7 +23619,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23668,7 +23668,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23717,7 +23717,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23766,7 +23766,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23815,7 +23815,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23864,7 +23864,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23913,7 +23913,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -23962,7 +23962,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24011,7 +24011,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24060,7 +24060,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24109,7 +24109,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24158,7 +24158,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24207,7 +24207,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24256,7 +24256,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_resnet152_v2_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24305,7 +24305,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_resnet152_v2_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24354,7 +24354,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24403,7 +24403,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24452,7 +24452,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24501,7 +24501,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24550,7 +24550,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24599,7 +24599,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24648,7 +24648,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24697,7 +24697,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24746,7 +24746,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24795,7 +24795,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24844,7 +24844,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24893,7 +24893,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24942,7 +24942,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -24991,7 +24991,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25040,7 +25040,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25089,7 +25089,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25138,7 +25138,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25187,7 +25187,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25236,7 +25236,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25285,7 +25285,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25334,7 +25334,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_alexnet_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25383,7 +25383,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_alexnet_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25432,7 +25432,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25481,7 +25481,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25530,7 +25530,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25579,7 +25579,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25628,7 +25628,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25677,7 +25677,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25726,7 +25726,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25775,7 +25775,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25824,7 +25824,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25873,7 +25873,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25922,7 +25922,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -25971,7 +25971,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26020,7 +26020,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26069,7 +26069,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26118,7 +26118,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch512
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch512_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch512_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_batch512_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26167,7 +26167,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_batch512/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26216,7 +26216,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26265,7 +26265,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26314,7 +26314,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26363,7 +26363,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26412,7 +26412,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_googlenet_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26461,7 +26461,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_googlenet_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26510,7 +26510,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26559,7 +26559,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26608,7 +26608,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26657,7 +26657,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26706,7 +26706,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26755,7 +26755,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26804,7 +26804,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26853,7 +26853,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26902,7 +26902,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -26951,7 +26951,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27000,7 +27000,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27049,7 +27049,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27098,7 +27098,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27147,7 +27147,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27196,7 +27196,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27245,7 +27245,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27294,7 +27294,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27343,7 +27343,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27392,7 +27392,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg11_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27441,7 +27441,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg11_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27490,7 +27490,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27539,7 +27539,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27588,7 +27588,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27637,7 +27637,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27686,7 +27686,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27735,7 +27735,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27784,7 +27784,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27833,7 +27833,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27882,7 +27882,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27931,7 +27931,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -27980,7 +27980,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28029,7 +28029,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28078,7 +28078,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28127,7 +28127,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28176,7 +28176,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28225,7 +28225,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28274,7 +28274,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28323,7 +28323,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28372,7 +28372,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg16_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28421,7 +28421,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg16_async_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28470,7 +28470,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28519,7 +28519,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28568,7 +28568,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28617,7 +28617,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28666,7 +28666,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28715,7 +28715,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28764,7 +28764,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28813,7 +28813,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28862,7 +28862,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_sync_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28911,7 +28911,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_sync_xla/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_batch32
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch32_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch32_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch32_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -28960,7 +28960,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_batch32/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_batch64
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch64_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch64_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch64_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -29009,7 +29009,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_batch64/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_batch128
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch128_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch128_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch128_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -29058,7 +29058,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_batch128/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_batch256
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch256_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch256_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_batch256_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -29107,7 +29107,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_batch256/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_use_fp16
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_use_fp16_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_use_fp16_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_use_fp16_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -29156,7 +29156,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_use_fp16/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_optMomentum
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_optMomentum_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_optMomentum_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_optMomentum_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -29205,7 +29205,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_optMomentum/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_optRmsprop
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_optRmsprop_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_optRmsprop_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_optRmsprop_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -29254,7 +29254,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_optRmsprop/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_dataFormat
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_dataFormat_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_dataFormat_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_dataFormat_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -29303,7 +29303,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_dataFormat/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_winograd
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_winograd_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_winograd_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_winograd_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
@@ -29352,7 +29352,7 @@ mv /home/ubuntu/cyshin/benchmarks/*.json /home/ubuntu/cyshin/benchmarks/xonar_re
 mv /home/ubuntu/cyshin//benchmarks/*.pbtxt /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_winograd/
 
 mkdir /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/imagenet_vgg19_async_xla
-nohup /home/ubuntu/cyshin/benchmarks/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_xla_gpu.err &
+nohup /home/ubuntu/cyshin/benchmarks/jhtest/NVML > /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_xla_gpu.txt 2> /home/ubuntu/cyshin/benchmarks/xonar_results_gpu/nvml/imagenet_vgg19_async_xla_gpu.err &
 sleep 1s;
 #------------------Start Time Stamping-------------
 STARTTIME=$(date +%s%N)
