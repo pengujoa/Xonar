@@ -153,6 +153,7 @@ if __name__ == '__main__':
     sys.stdout = open('DDL_command_cnn_ps2_w2_trace_resource.sh', 'w')
     python_path = "/root/anaconda3/envs/tfbuild/bin/python3.6"
     result_path = "/home/ubuntu/cyshin/benchmarks/xonar_results/"
+    nvml_path = "/home/ubuntu/cyshin/benchmarks/jhtest/NVML"
 
     print("#!/bin/bash")
     print("# How to use: sudo bash DDL_command.sh")
@@ -160,6 +161,8 @@ if __name__ == '__main__':
     for key, value in cifar10_command_dict.items():
         result_dir = result_path + key
         print("mkdir", result_dir)
+        print("nohup", nvml_path, ">", result_path + "nvml/" + key + "_gpu.txt 2>",
+              result_path + "nvml/" + key + "_gpu.err &")
         print("sleep 1s;")
 
         print("#------------------Start Time Stamping-------------")
@@ -198,6 +201,10 @@ if __name__ == '__main__':
               result_path + "/time/" + key + "_w2_time.txt")
 
         print("sleep 1s;")
+
+        print("#--------------------kill NVML------------------")
+        print("sudo pkill NVML")
+        print("sudo kill -9 `ps -ef | grep NVML | awk '{print $2}'`;")
 
         print("#--------------------kill python------------------")
         print("PYTHONPID=$(sudo docker exec bench_ps1 ps -ef | grep python | awk '{print $2}')")
@@ -228,6 +235,8 @@ if __name__ == '__main__':
     for key, value in imagenet_command_dict.items():
         result_dir = result_path + key
         print("mkdir", result_dir)
+        print("nohup", nvml_path, ">", result_path + "nvml/" + key + "_gpu.txt 2>",
+              result_path + "nvml/" + key + "_gpu.err &")
         print("sleep 1s;")
 
         print("#------------------Start Time Stamping-------------")
@@ -266,6 +275,10 @@ if __name__ == '__main__':
               result_path + "/time/" + key + "_w2_time.txt")
 
         print("sleep 1s;")
+
+        print("#--------------------kill NVML------------------")
+        print("sudo pkill NVML")
+        print("sudo kill -9 `ps -ef | grep NVML | awk '{print $2}'`;")
 
         print("#--------------------kill python------------------")
         print("PYTHONPID=$(sudo docker exec bench_ps1 ps -ef | grep python | awk '{print $2}')")
