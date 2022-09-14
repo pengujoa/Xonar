@@ -1,7 +1,18 @@
+# python benchmark.py --num_worker=2 --num_ps=2
+# --DDL_env="2080tiPS2W2"
+# --w_gpu_idx=0,1
+# --pbtxt_dir="D:/2021/개인연구/Xonar/git/files/pbtxt/"
+# --log_dir="D:/2021/개인연구/Xonar/git/files/log/"
+# --time_dir="D:/2021/개인연구/Xonar/git/files/time/"
+# --nvml_dir="D:/2021/개인연구/Xonar/git/files/nvml/"
+# --save_dir="D:/2021/개인연구/Xonar/git/results/"
+# --save_file="v100PS2W2_results.csv"
+
 import parsing.parse_corelog as PC
 import os
 import argparse
 import csv
+import datetime
 
 
 def main(args):
@@ -16,11 +27,18 @@ def main(args):
 
     save = [["Model", "w_idx", "RX_time(ms)", "TX_time(ms)", "GPU_Active(ms)", "GPU_Idle(ms)", "1_Iter_time(ms)", "Total_time(ms)", "GPU_Memory(MB)"]]
 
+    profile_start_time = datetime.datetime.now()
+
     for DDL_model in model_list:
-        # result = PC.parse_corelog(DDL_model, log_dir, pbtxt_dir, time_dir, nvml_dir, args.num_ps, args.num_worker, is_worker, w_gpu_idx)
-        result = PC.parse_only_gpu(DDL_model, nvml_dir, args.num_worker, is_worker, w_gpu_idx)
+        result = PC.parse_corelog(DDL_model, log_dir, pbtxt_dir, time_dir, nvml_dir, args.num_ps, args.num_worker, is_worker, w_gpu_idx)
+        # result = PC.parse_only_gpu(DDL_model, nvml_dir, args.num_worker, is_worker, w_gpu_idx)
         for w_idx in range(args.num_worker):
             save.append(result[w_idx])
+
+    profile_end_time = datetime.datetime.now()
+    profile_diff = profile_end_time - profile_start_time
+    print("profile start-end secs:", profile_diff.seconds)
+    print("profile start-end msecs:",profile_diff.microseconds)
 
     csvfile = open(args.save_dir + args.save_file, "w", newline="")
     csvwriter = csv.writer(csvfile)
@@ -29,6 +47,8 @@ def main(args):
         csvwriter.writerow(row)
 
     csvfile.close()
+
+
 
 
 def model_list_from_pbtxt_dir(pbtxt_dir):

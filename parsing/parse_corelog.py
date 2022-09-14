@@ -69,69 +69,69 @@ def parse_corelog(ddl_model, log_dir, pbtxt_dir, time_dir, nvml_dir, num_ps, num
                 iter_end_time_usec = usec + HMS[0] * HOUR * 1000000 + HMS[1] * MINUTE * 1000000 + HMS[2] * 1000000
 
                 for w_s in iter_log:
-                    if "something send" in w_s:
-                        key = w_s.split(",")[1] + "," + w_s.split(",")[2]
-                        for ps_s in ps_log:
-                            if key in ps_s:
-                                try:
-                                    op_name = w_send[ps_s.split(",")[0].split(" ")[4]]
-                                    tensor_name = ps_s.split(",")[0].split(" ")[4]
-                                    send_dev = ps_s.split(",")[1]
-                                    recv_dev = ps_s.split(",")[2]
-                                    send_req_start = int(ps_s.split(",")[8])
-                                    send_resp_start = int(ps_s.split(",")[9])
-                                    tensor_id = int(ps_s.split(",")[10])
-                                    send_resp_end = int(ps_s.split(",")[11])
-                                    tensor_bytes = int(ps_s.split(",")[12])
+                    # if "something send" in w_s:
+                    #     key = w_s.split(",")[1] + "," + w_s.split(",")[2]
+                    #     for ps_s in ps_log:
+                    #         if key in ps_s:
+                    #             try:
+                    #                 op_name = w_send[ps_s.split(",")[0].split(" ")[4]]
+                    #                 tensor_name = ps_s.split(",")[0].split(" ")[4]
+                    #                 send_dev = ps_s.split(",")[1]
+                    #                 recv_dev = ps_s.split(",")[2]
+                    #                 send_req_start = int(ps_s.split(",")[8])
+                    #                 send_resp_start = int(ps_s.split(",")[9])
+                    #                 tensor_id = int(ps_s.split(",")[10])
+                    #                 send_resp_end = int(ps_s.split(",")[11])
+                    #                 tensor_bytes = int(ps_s.split(",")[12])
+                    #
+                    #                 if ("Const_" not in tensor_name) & ("Merge" not in tensor_name):
+                    #                     if send_req_start > send_max_req_start:
+                    #                         send_max_req_start = send_req_start
+                    #                     if send_req_start < send_min_req_start:
+                    #                         send_min_req_start = send_req_start
+                    #                     if send_resp_start > send_max_resp_start:
+                    #                         send_max_resp_start = send_resp_start
+                    #                     if send_resp_start < send_min_resp_start:
+                    #                         send_min_resp_start = send_resp_start
+                    #                     if send_resp_end > send_max_resp_end:
+                    #                         send_max_resp_end = send_resp_end
+                    #                     if send_resp_end < send_min_resp_end:
+                    #                         send_min_resp_end = send_resp_end
+                    #             except KeyError:
+                    #                 pass
+                    #                 # print("error: ", w_s.split(",")[0].split(" ")[4])
+                    #
+                    # elif "RecvTensorAsync" in w_s:
+                    #     try:
+                    #         op_name = w_recv[w_s.split(",")[0].split(" ")[4]]
+                    #         tensor_name = w_s.split(",")[0].split(" ")[4]
+                    #         send_dev = w_s.split(",")[1]
+                    #         recv_dev = w_s.split(",")[2]
+                    #         recv_req_start = int(w_s.split(",")[8])
+                    #         recv_resp_start = int(w_s.split(",")[9])
+                    #         tensor_id = int(w_s.split(",")[10])
+                    #         recv_resp_end = int(w_s.split(",")[11])
+                    #         tensor_bytes = int(w_s.split(",")[12])
+                    #
+                    #         if ("NoOp" not in tensor_name) & ("AssignAdd" not in tensor_name) & ("group_deps" not in tensor_name):
+                    #             if recv_req_start > recv_max_req_start:
+                    #                 recv_max_req_start = recv_req_start
+                    #             if recv_req_start < recv_min_req_start:
+                    #                 recv_min_req_start = recv_req_start
+                    #             if recv_resp_start > recv_max_resp_start:
+                    #                 recv_max_resp_start = recv_resp_start
+                    #             if recv_resp_start < recv_min_resp_start:
+                    #                 recv_min_resp_start = recv_resp_start
+                    #             if recv_resp_end > recv_max_resp_end:
+                    #                 recv_max_resp_end = recv_resp_end
+                    #             if recv_resp_end < recv_min_resp_end:
+                    #                 recv_min_resp_end = recv_resp_end
+                    #
+                    #     except KeyError:
+                    #         pass
+                    #         # print("error: ", w_s.split(",")[0].split(" ")[4])
 
-                                    if ("Const_" not in tensor_name) & ("Merge" not in tensor_name):
-                                        if send_req_start > send_max_req_start:
-                                            send_max_req_start = send_req_start
-                                        if send_req_start < send_min_req_start:
-                                            send_min_req_start = send_req_start
-                                        if send_resp_start > send_max_resp_start:
-                                            send_max_resp_start = send_resp_start
-                                        if send_resp_start < send_min_resp_start:
-                                            send_min_resp_start = send_resp_start
-                                        if send_resp_end > send_max_resp_end:
-                                            send_max_resp_end = send_resp_end
-                                        if send_resp_end < send_min_resp_end:
-                                            send_min_resp_end = send_resp_end
-                                except KeyError:
-                                    pass
-                                    # print("error: ", w_s.split(",")[0].split(" ")[4])
-
-                    elif "RecvTensorAsync" in w_s:
-                        try:
-                            op_name = w_recv[w_s.split(",")[0].split(" ")[4]]
-                            tensor_name = w_s.split(",")[0].split(" ")[4]
-                            send_dev = w_s.split(",")[1]
-                            recv_dev = w_s.split(",")[2]
-                            recv_req_start = int(w_s.split(",")[8])
-                            recv_resp_start = int(w_s.split(",")[9])
-                            tensor_id = int(w_s.split(",")[10])
-                            recv_resp_end = int(w_s.split(",")[11])
-                            tensor_bytes = int(w_s.split(",")[12])
-
-                            if ("NoOp" not in tensor_name) & ("AssignAdd" not in tensor_name) & ("group_deps" not in tensor_name):
-                                if recv_req_start > recv_max_req_start:
-                                    recv_max_req_start = recv_req_start
-                                if recv_req_start < recv_min_req_start:
-                                    recv_min_req_start = recv_req_start
-                                if recv_resp_start > recv_max_resp_start:
-                                    recv_max_resp_start = recv_resp_start
-                                if recv_resp_start < recv_min_resp_start:
-                                    recv_min_resp_start = recv_resp_start
-                                if recv_resp_end > recv_max_resp_end:
-                                    recv_max_resp_end = recv_resp_end
-                                if recv_resp_end < recv_min_resp_end:
-                                    recv_min_resp_end = recv_resp_end
-
-                        except KeyError:
-                            pass
-                            # print("error: ", w_s.split(",")[0].split(" ")[4])
-
-                    elif ("Compute op compute start" in w_s) & (find_first_gpu_op_start is False):
+                    if ("Compute op compute start" in w_s) & (find_first_gpu_op_start is False):
                         find_first_gpu_op_start = True
                         first_gpu_op_start_time = int(w_s.split(",")[1])
 
@@ -155,11 +155,11 @@ def parse_corelog(ddl_model, log_dir, pbtxt_dir, time_dir, nvml_dir, num_ps, num
             # worker index
             result[w_idx - 1].append(w_idx)
 
-            # RX Duration
-            result[w_idx - 1].append((sum(rx_dur)/len(rx_dur))/1000)
-
-            # TX Duration
-            result[w_idx - 1].append((sum(tx_dur)/len(tx_dur))/1000)
+            # # RX Duration
+            # result[w_idx - 1].append((sum(rx_dur)/len(rx_dur))/1000)
+            #
+            # # TX Duration
+            # result[w_idx - 1].append((sum(tx_dur)/len(tx_dur))/1000)
 
             # GPU Active
             gpu_active_dur = []
@@ -185,7 +185,10 @@ def parse_corelog(ddl_model, log_dir, pbtxt_dir, time_dir, nvml_dir, num_ps, num
             gpu_idx = w_gpu_idx[w_idx - 1]
             max_gpu_mem = 0
             for log in nvml_log:
+                # v100
                 if log.split(" ")[-14].split(":")[0] is gpu_idx:
+                # 2080ti
+                # if log.split(" ")[-16].split(":")[0] is gpu_idx:
                     gpu_mem = int(log.split(" ")[-1])
                     max_gpu_mem = gpu_mem if gpu_mem > max_gpu_mem else max_gpu_mem
             result[w_idx - 1].append(max_gpu_mem/(1024*1024))
@@ -206,7 +209,10 @@ def parse_only_gpu(ddl_model, nvml_dir, num_w, is_worker, w_gpu_idx):
                 gpu_idx = w_gpu_idx[w_idx - 1]
                 max_gpu_mem = 0
                 for log in nvml_log:
+                    # v100
                     if log.split(" ")[-14].split(":")[0] is gpu_idx:
+                    # 2080ti
+                    # if log.split(" ")[-16].split(":")[0] is gpu_idx:
                         gpu_mem = int(log.split(" ")[-1])
                         max_gpu_mem = gpu_mem if gpu_mem > max_gpu_mem else max_gpu_mem
 
@@ -217,7 +223,10 @@ def parse_only_gpu(ddl_model, nvml_dir, num_w, is_worker, w_gpu_idx):
                 result[w_idx - 1].append(0)
                 result[w_idx - 1].append(0)
                 result[w_idx - 1].append(0)
-                result[w_idx - 1].append(0)
+                # result[w_idx - 1].append(0)
+                time_dir = "D:/2021/개인연구/Xonar/git/files/time_100iter/"
+                result[w_idx - 1].append(
+                    int(open(time_dir + ddl_model + "_w" + str(w_idx) + "_time.txt", 'r').read().split(":")[1]))
                 result[w_idx - 1].append(max_gpu_mem/(1024*1024))
 
                 print(result[w_idx - 1])

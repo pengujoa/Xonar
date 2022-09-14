@@ -5,25 +5,11 @@ from random import randint
 
 def generate_scripts():
     # out of memory error models
-    oom_model_list = ['cifar10_densenet100k12_sync_batch512', 'cifar10_densenet100k12_async_batch512',
-                      'cifar10_densenet100k24_sync_batch256', 'cifar10_densenet100k24_async_batch256',
-                      'cifar10_densenet100k24_sync_batch512', 'cifar10_densenet100k24_async_batch512',
-                      'imagenet_resnet50_sync_batch512', 'imagenet_resnet50_async_batch512',
-                      'imagenet_resnet50v2_sync_batch512', 'imagenet_resnet50v2_async_batch512',
-                      'imagenet_resnet101_sync_batch256', 'imagenet_resnet101_async_batch256',
-                      'imagenet_resnet101v2_sync_batch256', 'imagenet_resnet101v2_async_batch256',
-                      'imagenet_resnet101_sync_batch512', 'imagenet_resnet101_async_batch512',
-                      'imagenet_resnet101v2_sync_batch512', 'imagenet_resnet101v2_async_batch512',
-                      'imagenet_resnet152_sync_batch256', 'imagenet_resnet152_async_batch256',
-                      'imagenet_resnet152v2_sync_batch256', 'imagenet_resnet152v2_async_batch256',
-                      'imagenet_resnet152_sync_batch512', 'imagenet_resnet152_async_batch512',
-                      'imagenet_resnet152v2_sync_batch512', 'imagenet_resnet152v2_async_batch512',
-                      'imagenet_inception3_sync_batch512', 'imagenet_inception3_async_batch512',
-                      'imagenet_inception4_sync_batch256', 'imagenet_inception4_async_batch256',
-                      'imagenet_inception4_sync_batch512', 'imagenet_inception4_async_batch512',
-                      'imagenet_vgg11_sync_batch512', 'imagenet_vgg11_async_batch512',
-                      'imagenet_vgg16_sync_batch512', 'imagenet_vgg16_async_batch512',
-                      'imagenet_vgg19_sync_batch512', 'imagenet_vgg19_async_batch512']
+    oom_model_list = ['cifar10_densenet100_k12_sync_batch512','cifar10_densenet100_k12_async_batch512',
+                      'cifar10_densenet100_k24_sync_batch256','cifar10_densenet100_k24_async_batch256',
+                      'cifar10_densenet100_k24_sync_batch512','cifar10_densenet100_k24_async_batch512',
+                      'cifar10_densenet100_k12_sync_batch256','cifar10_densenet100_k24_async_batch128',
+                      'cifar10_densenet100_k12_async_batch256','cifar10_densenet100_k24_sync_batch128']
 
     Params_dict = {"batch32": "--batch_size=32 ", "batch64": "--batch_size=64 ", "batch128": "--batch_size=128 ",
                    "batch256": "--batch_size=256 ", "batch512": "--batch_size=512 ",
@@ -64,16 +50,16 @@ def generate_scripts():
     command = []
     command.append(
         ps1_command + Params_dict[option["params"]] + Synchronization_dict[option["sync_method"]]
-        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=100 --display_every=1 &")
+        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=200 --display_every=1 &")
     command.append(
         ps2_command + Params_dict[option["params"]] + Synchronization_dict[option["sync_method"]]
-        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=100 --display_every=1 &")
+        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=200 --display_every=1 &")
     command.append(
         w1_command + Params_dict[option["params"]] + Synchronization_dict[option["sync_method"]]
-        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=100 --display_every=1 &")
+        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=200 --display_every=1 &")
     command.append(
         w2_command + Params_dict[option["params"]] + Synchronization_dict[option["sync_method"]]
-        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=100 --display_every=1 &")
+        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=200 --display_every=1 &")
 
     script_path = "random_job_scripts/"
     script_name = script_path + "1_" + job + ".sh"
@@ -125,16 +111,16 @@ def generate_scripts():
     command = []
     command.append(
         ps1_command + Params_dict[option["params"]] + Synchronization_dict[option["sync_method"]]
-        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=100 --display_every=1 &")
+        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=200 --display_every=1 &")
     command.append(
         ps2_command + Params_dict[option["params"]] + Synchronization_dict[option["sync_method"]]
-        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=100 --display_every=1 &")
+        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=200 --display_every=1 &")
     command.append(
         w1_command + Params_dict[option["params"]] + Synchronization_dict[option["sync_method"]]
-        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=100 --display_every=1 &")
+        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=200 --display_every=1 &")
     command.append(
         w2_command + Params_dict[option["params"]] + Synchronization_dict[option["sync_method"]]
-        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=100 --display_every=1 &")
+        + "--model=" + Model_dict[option["model"]] + " --data_name=" + option["dataset"] + " --num_batches=200 --display_every=1 &")
 
     script_path = "random_job_scripts/"
     script_name = script_path + "2_" + job + ".sh"
@@ -178,8 +164,7 @@ def generate_scripts():
 
 
 def random_job():
-    Dataset_list = ["cifar10", "imagenet"]
-    # Dataset_list = ["imagenet"]
+    Dataset_list = ["cifar10"]
 
     CIFAR10_model_list = ["densenet40k12", "densenet100k12", "densenet100k24",
                           "resnet20", "resnet20v2", "resnet32", "resnet32v2", "resnet44", "resnet44v2",
@@ -199,8 +184,7 @@ def random_job():
     job = ""
     option = {}
     # random dataset
-    dataset = Dataset_list[randint(0, 1)]
-    # dataset = Dataset_list[0]
+    dataset = Dataset_list[0]
     job = job + dataset + "_"
     option["dataset"] = dataset
     # random model
